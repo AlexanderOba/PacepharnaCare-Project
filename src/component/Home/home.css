@@ -1,0 +1,428 @@
+@keyframes moveUp {
+    0% {
+      opacity: 0;
+      transform: translateY(5rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+ .section-1{
+    background-size: cover;
+    background-image: url(../../images/Pharmaceutical.png);
+    padding-bottom: 93px;    
+}
+.column-1{
+    padding-top: 218px ;
+    animation: moveUp 1s ease-out .8s;
+  animation-fill-mode: backwards;
+}
+.heading-primary{
+  display: block;
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+  width: 53%;
+}
+.heading-primary-descr{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    width: 54%;
+}
+/* partner section styling */
+.partner-carousel::-webkit-scrollbar {
+  width: 0;
+  background-color: var(--molecular-orange);
+}
+.partner-carousel {
+  height: 120px;
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .partner-carousel {
+    overflow: hidden;
+    padding: 0px;
+    display: flex;
+    justify-content: end !important;
+    overflow-x: scroll;
+  }
+  .partner-carousel::-webkit-scrollbar {
+    display: none;
+  }
+  .prtncardsply {
+    display: block;
+    display: flex !important;
+  }
+  .partner-spacing {
+    margin-right: 10%;
+  }
+}
+a:link, a:visited{
+    color: inherit;
+    text-decoration: underline;
+}
+.section_3{
+  text-align: initial;
+}
+.heading_primary{
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+}
+.heading_tertiary{
+  color: #3D7A15;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-3{
+  padding: 118px 0px 100px;
+}
+.heading_secondary{
+  color: #333333;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.section_3>P{
+  color: #757575;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 134px;
+  line-height: 24px;
+}
+.section_3_img{
+  text-align: center;
+
+}
+.section_3_col2{
+  padding-left: 35px;
+  padding-top: 110px;
+}
+.medicineplatewrap{
+  padding-top: 100px;
+}
+.section-about{
+  padding-bottom: 60px;
+  background-position-y: 196px;
+  background-image: url(../../images/asignline.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.section-3-list{
+  list-style: none;
+}
+.section-3-list> li{
+margin-bottom: 12px;
+}
+.list_bullet{
+  margin-right: 15px;
+}
+.section_3_col2btn{
+  display: inline-block;
+  border: 1px solid #3D7A15;
+  border-radius: 13px;
+  border-radius: 29px;
+  padding: 10px 36px;
+  margin-top: 21px;
+  cursor: pointer;
+}
+.section_3_col2btn>span{
+  margin-left: 10px;
+}
+.column-3{
+  text-align: center;
+  text-transform: uppercase;
+}
+.content_sf{
+font-size: 14px;
+line-height: 24px;
+font-weight: 600;
+color: #757575;
+}
+
+/*section four */
+.section_4{
+  background-color: #f9fff5;
+  padding: 117px 0px;
+  background-image: url(../../images/jointcircle.png);
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: 46px;
+}
+.section_4row{
+  justify-content: space-between;
+  margin-top: 27px;
+}
+.feedbackcontent{
+  background-color: #3D7A15;
+  color: #fff;
+  padding: 18px 12px 0px 34px;
+  clip-path: polygon(7% 5%, 2% 0%, 100% 0, 100% 471px, 7% 102%);
+  border-radius: 14px;
+  margin-bottom: 34px;
+}
+.secodusercontent{
+  background-color: #fff;
+  color: #333333;
+}
+.arrowposition{
+  position: relative;
+  top: -21px;
+  left: -21px;
+  color: #3D7A15;
+}
+.chatboxstyle{
+  text-align: left;
+}
+.feedbackcontent>p{
+  font-size: 14px;
+}
+.feddbkuserdetailswrap{
+  display: flex;
+}
+.feddbkuserdetailswrap>span{
+  margin-right: 9px;
+}
+.feedbkusername{
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700;
+}
+.feedbkuserwrk{
+  font-size: 10px;
+}
+
+.category-img{
+  display: inline-block;
+  width: 70%;
+  height: 312px;
+  margin-bottom: 30px;
+}
+.carousel-indicators{
+  bottom: -50px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display: none;
+}
+.carousel-indicators li{
+  width:10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #3D7A15;
+}
+
+/*section seven styling*/
+.section-seven{
+  background-color: #fff;
+}
+.lightbulb-img{
+  background-image: url(../../images/pfizer-img.png);
+  background-repeat: no-repeat;
+  background-position-y: -32px;
+  background-position-x: 66px;
+}
+.section-seven-content-wrapp{
+  padding: 104px 6px 112px 43px;
+}
+.section-seven-heading{
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 18px;
+}
+.section-seven-content{
+  color: #999999;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.section-seven-form{
+  background-color: rgba(123,123,123,.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 0px 0px 0px 19px;
+  width: 78%;
+}
+.section-seven-forminpt{
+  padding: 4px 0px 4px 15px;
+  background-color: rgba(123,123,123,0);
+  border: none !important;
+  outline: none;
+  margin-top: 16px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.section-seven-forminpt::placeholder{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.section-seven-forminpt:focus{
+  outline: none !important;
+  background-color: rgba(123,123,123,0);
+  color:#333333;
+}
+.section-seven-form-btn{
+  background-color: #3D7A15;
+  text-align: center;
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all .4s;
+}
+/* Company page styling */
+.cmpnypgcontainer{
+  padding: 0px 100px;
+  background-image: url(../../images/rainfall-lines.png);
+  background-repeat: no-repeat;
+  background-position-y: 1217px;
+}
+.company_section-1{
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.9) , rgba(0, 0, 0, 0) 112.58%),url(../../images/coils.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 68px;
+  padding-bottom: 103px;
+}
+.company_section-1>h6{
+    color: #d4d4d4;
+   font-size: 18px;
+   font-weight: 600;
+  }
+.company_section-1>h2{
+  color: #fff;
+  font-weight: 800;
+  font-size: 41px;
+  margin-bottom: 13px;
+}
+.company_section-1>p{
+  color: #fff;
+  width: 48%;
+    margin: auto;
+}
+.toppagepadding{
+  padding-top: 98px;
+}
+.compny_section-2{
+  text-align: center;
+  margin-top: 54px;
+}
+.compnypgcontent{
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 60px;
+}
+.company-offers{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 135px;
+}
+.companyteamwrap{
+  display: flex;
+  justify-content: space-between;
+}
+.companyteamtitle{
+  width: 100%;
+}
+.compnypgdirectorswrap{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 112px;
+  background-image: url(../../images/rainfall-lines.png);
+  background-repeat: no-repeat;
+
+}
+.compnydirectorcards{
+  border-radius: 11px;
+  box-shadow: -1px 10px 20px rgba(0,0,0,.2) ;
+}
+.cmpnydirectorname{
+  font-size: 17px;
+  color: #333333;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 0px
+}
+.directorpostion{
+  color: #494949;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+.team_section{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.teamwrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.offsetimg{
+  padding-top: 85px;
+}
+/* services page styling */
+.services_section-1{
+  background-image: url(../../images/wallpapersty.png);
+  background-repeat: no-repeat;
+ text-align: center;
+ padding: 50px 0px;
+}
+.services_section-1>h6{
+  color: #998899;
+  font-size: 20px;
+  font-weight: 700;
+}
+.services_section-1>h2{
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+}
+.services_section-1>p{
+  color: #666666;
+  width: 48%;
+  margin: auto;
+  line-height: 21px;
+}
+.services_section-1>img{
+  margin-bottom: 12px;
+}
+.servicepg_section2{
+  background-color: #f4ffee;
+  padding: 67px 0px;
+}
+.servicecontent_sf{
+  margin-bottom: 43px !important;
+}
+.service_section4{
+  padding-top: 56px 0px;
+}
+.service_section5{
+  background-color: #f9fff5;
+  padding: 56px 0px;
+}
+.serviceheading_secondary{
+  font-size: 40px;
+  font-weight: 800;
+  color: #001d65;
+}
+.service_section5jointcircle{
+  text-align: center;
+  margin-bottom: 41px;
+}
